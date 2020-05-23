@@ -5,7 +5,7 @@
       padding-bottom: 50px;
     }
   
-    .topicos-container {
+    .container-topicos {
       display: grid;
       grid-template-areas:
         "topico1"
@@ -52,7 +52,7 @@
         padding-bottom: 50px;
       }
   
-      .topicos-container {
+      .container-topicos {
         grid-template-areas:
           "topico1 topico2"
           "topico3 topico 4";
@@ -65,7 +65,7 @@
       .topicos {
         padding-bottom: 50px;
 
-        .topicos-container {
+        .container-topicos {
             grid-template-areas:
               "topico1 topico2 topico3 topico 4";
             grid-template-columns: 1fr 1fr 1fr 1fr;

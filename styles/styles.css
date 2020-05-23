@@ -28,7 +28,8 @@ a {
 
 a:active {
   font-family: "IBM Plex Mono";
-  color: #060a24 56%;
+  color: #060a24;
+  opacity: 56%;
 }
 
 @media (min-width: 768px) {
@@ -437,7 +438,11 @@ a:active {
   padding-left: 11px;
 }
 
-.entrevistas .entrevistas-container {
+.entrevistas .invitados {
+  width: 100%;
+}
+
+.entrevistas .container-entrevistas {
   display: -ms-grid;
   display: grid;
       grid-template-areas: "foto1" "foto2" "foto3" "foto4" "foto5" "foto6";
@@ -447,41 +452,37 @@ a:active {
       grid-template-rows: repeat(6, 1fr);
 }
 
-.entrevistas .entrevistas-container .invitados {
-  width: 100%;
-}
-
-.entrevistas .entrevistas-container .foto1 {
+.entrevistas .container-entrevistas .foto1 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: foto1;
 }
 
-.entrevistas .entrevistas-container .foto2 {
+.entrevistas .container-entrevistas .foto2 {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: foto2;
 }
 
-.entrevistas .entrevistas-container .foto3 {
+.entrevistas .container-entrevistas .foto3 {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: foto3;
 }
 
-.entrevistas .entrevistas-container .foto4 {
+.entrevistas .container-entrevistas .foto4 {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
   grid-area: foto4;
 }
 
-.entrevistas .entrevistas-container .foto5 {
+.entrevistas .container-entrevistas .foto5 {
   -ms-grid-row: 5;
   -ms-grid-column: 1;
   grid-area: foto5;
 }
 
-.entrevistas .entrevistas-container .foto6 {
+.entrevistas .container-entrevistas .foto6 {
   -ms-grid-row: 6;
   -ms-grid-column: 1;
   grid-area: foto6;
@@ -492,7 +493,7 @@ a:active {
     padding-left: 50px;
     padding-bottom: 50px;
   }
-  .entrevistas .entrevistas-container {
+  .entrevistas .container-entrevistas {
         grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6";
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
@@ -520,7 +521,7 @@ a:active {
   padding-bottom: 50px;
 }
 
-.topicos .topicos-container {
+.topicos .container-topicos {
   display: -ms-grid;
   display: grid;
       grid-template-areas: "topico1" "topico2" "topico3" "topico4";
@@ -528,37 +529,37 @@ a:active {
       grid-template-columns: 1fr;
 }
 
-.topicos .topicos-container .temas {
+.topicos .container-topicos .temas {
   display: -ms-grid;
   display: grid;
   margin: auto;
   padding-bottom: 13px;
 }
 
-.topicos .topicos-container h3 {
+.topicos .container-topicos h3 {
   text-align: center;
   padding-bottom: 50px;
 }
 
-.topicos .topicos-container .topico1 {
+.topicos .container-topicos .topico1 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: topico1;
 }
 
-.topicos .topicos-container .topico2 {
+.topicos .container-topicos .topico2 {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: topico2;
 }
 
-.topicos .topicos-container .topico3 {
+.topicos .container-topicos .topico3 {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: topico3;
 }
 
-.topicos .topicos-container .topico4 {
+.topicos .container-topicos .topico4 {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
   grid-area: topico4;
@@ -569,7 +570,7 @@ a:active {
     padding-left: 50px;
     padding-bottom: 50px;
   }
-  .topicos .topicos-container {
+  .topicos .container-topicos {
         grid-template-areas: "topico1 topico2" "topico3 topico 4";
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -582,7 +583,7 @@ a:active {
   .topicos {
     padding-bottom: 50px;
   }
-  .topicos .topicos-container {
+  .topicos .container-topicos {
         grid-template-areas: "topico1 topico2 topico3 topico 4";
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;

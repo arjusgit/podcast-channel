@@ -3,8 +3,11 @@
   .titulos {
     padding-left: 11px;
   }
+  .invitados {
+    width: 100%;
+  }
 
-  .entrevistas-container {
+  .container-entrevistas {
     display: grid;
     grid-template-areas:
       "foto1"
@@ -15,10 +18,6 @@
       "foto6";
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
-
-  .invitados {
-    width: 100%;
-  }
 
 
     .foto1 {
@@ -54,7 +53,7 @@
       padding-bottom: 50px;
     }
 
-    .entrevistas-container {
+    .container-entrevistas {
       grid-template-areas:
         "foto1 foto2 foto3"
         "foto4 foto5 foto6";
