@@ -1,5 +1,4 @@
 footer {
-  padding-left: 5%;
   display: flex;
   height: 150px;
   background-color: $blanco;
@@ -29,6 +28,7 @@ footer {
 
 @media (min-width: 768px) {
   footer {
+    padding: 5%;
     flex-direction: row;
     width: 100%;
     .copyright {

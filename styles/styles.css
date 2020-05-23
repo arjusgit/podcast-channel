@@ -666,7 +666,6 @@ a:active {
 }
 
 footer {
-  padding-left: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -714,6 +713,7 @@ footer .social {
 
 @media (min-width: 768px) {
   footer {
+    padding: 5%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
