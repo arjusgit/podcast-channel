@@ -3,7 +3,7 @@
   display: grid;
   padding-left: 11px;
   padding-right: 11px;
-  padding-bottom: 25px;
+  padding-bottom: 2em;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "phone phone"
@@ -12,8 +12,8 @@
   align-items: center;
 
   .titulos {
+    margin-top: 1.5em;
     width: 60%;
-    margin-bottom: 25px;
   }
 
   .container-nosotros {
@@ -28,6 +28,7 @@
     font-size: 16px;
     line-height: 24px;
     color: $font;
+    margin-bottom: 1.5em;
   }
 }
 
