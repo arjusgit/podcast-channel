@@ -448,8 +448,8 @@ a:active {
       grid-template-areas: "foto1" "foto2" "foto3" "foto4" "foto5" "foto6";
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: (1fr)[6];
-      grid-template-rows: repeat(6, 1fr);
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .entrevistas .container-entrevistas .foto1 {
