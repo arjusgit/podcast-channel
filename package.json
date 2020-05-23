@@ -1,0 +1,19 @@
+{
+  "name": "podcast_channel",
+  "version": "1.0.0",
+  "description": "## allowtransparency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjusgit/podcast_channel.git"
+  },
+  "author": "Ariel Jusid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arjusgit/podcast_channel/issues"
+  },
+  "homepage": "https://github.com/arjusgit/podcast_channel#readme"
+}
