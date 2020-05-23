@@ -1,0 +1,82 @@
+.topicos {
+    padding-bottom: 25px;
+    .titulos {
+      padding-left: 11px;
+      padding-bottom: 50px;
+    }
+  
+    .topicos-container {
+      display: grid;
+      grid-template-areas:
+        "topico1"
+        "topico2"
+        "topico3"
+        "topico4";
+      grid-template-columns: 1fr;
+   
+      
+    .temas {
+      display: grid;
+      margin: auto;
+      padding-bottom: 13px;
+    }
+
+    h3 {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+  
+      .topico1 {
+        grid-area: topico1;
+      }
+  
+      .topico2 {
+        grid-area: topico2;
+      }
+  
+      .topico3 {
+        grid-area: topico3;
+      }
+  
+      .topico4 {
+        grid-area: topico4;
+      }
+  
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .topicos {
+      .titulos {
+        padding-left: 50px;
+        padding-bottom: 50px;
+      }
+  
+      .topicos-container {
+        grid-template-areas:
+          "topico1 topico2"
+          "topico3 topico 4";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+      }
+    }
+  
+    @media (min-width: 1024px) {
+      .topicos {
+        padding-bottom: 50px;
+
+        .topicos-container {
+            grid-template-areas:
+              "topico1 topico2 topico3 topico 4";
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: initial;
+          }
+  
+        .titulos {
+          padding-left: 200px;
+          width: 100%;
+        }
+      }
+    }
+  }
+  

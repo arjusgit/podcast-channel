@@ -1,0 +1,113 @@
+.navbar {
+  background: $blanco;
+}
+
+.navbar-header {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-menu-mobile {
+  color: $font;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-link {
+  color: $blanco;
+  font-size: 2rem;
+}
+
+.navbar-container {
+  position: absolute;
+  background: $azul;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 5%;
+  flex-direction: column;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.4s ease;
+}
+
+.navbar-link {
+  color: $blanco;
+  font-family: "IBM Plex Mono";
+  text-transform: uppercase;
+}
+
+.navbar-link:hover{
+  color: $cyan;
+  text-decoration:line-through;
+}
+
+.navbar-link:active{
+  color: #060A24;
+  opacity: 56%;
+  text-decoration:line-through;
+}
+
+#navbar-header:target .navbar-container {
+  height: 330px;
+}
+
+#navbar-header:target .abrir {
+  display: none;
+}
+
+#navbar-header:target .cerrar {
+  display: flex;
+}
+
+.cerrar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+  }
+
+  .fa.fa-close:before, .fa.fa-remove:before {
+    display: none;
+  }
+
+  .logo {
+    height: 36px;
+  }
+
+  .navbar-menu-mobile {
+    display: none;
+  }
+
+  .navbar-container {
+    background: transparent;
+    height: auto;
+    flex-direction: row;
+    position: static;
+    width: 60%;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .navbar-link {
+    color: $font;
+  }
+
+  #navbar-header:target .navbar-container {
+    height: initial;
+  }
+}
+
+@media(min-width:1024px){
+  .logo {
+    padding-left: 100px;
+  }
+}

@@ -1,0 +1,76 @@
+.entrevistas {
+  padding-bottom: 25px;
+  .titulos {
+    padding-left: 11px;
+  }
+
+  .entrevistas-container {
+    display: grid;
+    grid-template-areas:
+      "foto1"
+      "foto2"
+      "foto3"
+      "foto4"
+      "foto5"
+      "foto6";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+
+  .invitados {
+    width: 100%;
+  }
+
+
+    .foto1 {
+      grid-area: foto1;
+    }
+
+    .foto2 {
+      grid-area: foto2;
+    }
+
+    .foto3 {
+      grid-area: foto3;
+    }
+
+    .foto4 {
+      grid-area: foto4;
+    }
+
+    .foto5 {
+      grid-area: foto5;
+    }
+
+    .foto6 {
+      grid-area: foto6;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .entrevistas {
+    .titulos {
+      padding-left: 50px;
+      padding-bottom: 50px;
+    }
+
+    .entrevistas-container {
+      grid-template-areas:
+        "foto1 foto2 foto3"
+        "foto4 foto5 foto6";
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .entrevistas {
+      padding-bottom: 50px;
+
+      .titulos {
+        padding-left: 200px;
+        width: 100%;
+      }
+    }
+  }
+}

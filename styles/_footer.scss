@@ -1,0 +1,43 @@
+footer {
+  padding-left: 5%;
+  display: flex;
+  height: 150px;
+  background-color: $blanco;
+  color: $font;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "IBM Plex Mono";
+    font-size: 14px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .social {
+    display: flex;
+    font-size: 16px;
+    width: 50%;
+    justify-content: space-around;
+    padding-bottom: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    flex-direction: row;
+    width: 100%;
+    .copyright {
+      justify-content: flex-start;
+    }
+  
+  .social {
+    padding-bottom: initial;
+    font-size: 18px;
+  }
+}
+}

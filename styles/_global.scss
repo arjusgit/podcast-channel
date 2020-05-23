@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.titulos {
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  font-size: 36px;
+  padding-bottom: 25px;
+  width: 60%;
+}
+
+a:active {
+  font-family: "IBM Plex Mono";
+  color: #060a24 56%;
+}
+
+@media (min-width: 768px) {
+  .titulos {
+    font-size: 48px;
+  }
+}

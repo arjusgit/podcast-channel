@@ -1,0 +1,58 @@
+.nosotros {
+  position: relative;
+  display: grid;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-bottom: 25px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "phone phone"
+    "txtnosotros txtnosotros";
+  width: 100%;
+  align-items: center;
+
+  .titulos {
+    width: 60%;
+    margin-bottom: 25px;
+  }
+
+  .container-nosotros {
+    display: grid;
+    grid-area: txtnosotros;
+    margin-right: 11px;
+    text-align: left;
+  }
+
+  .txt-nosotros {
+    font-family: "IBM Plex Mono";
+    font-size: 16px;
+    line-height: 24px;
+    color: $font;
+  }
+}
+
+.phone {
+  display: grid;
+  grid-area: phone;
+  width: 360px;
+  position: relative;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .nosotros {
+    padding-bottom: 100px;
+
+    grid-template-areas:
+      "phone txtnosotros"
+      "phone txtnosotros";
+  }
+}
+
+@media (min-width: 1024px) {
+  .nosotros {
+    .txt-nosotros {
+      width: 70%;
+    }
+  }
+}
