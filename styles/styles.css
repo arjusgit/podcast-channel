@@ -541,6 +541,8 @@ a:active {
 .topicos .container-topicos h3 {
   text-align: center;
   padding-bottom: 50px;
+  font-family: 'IBM Plex Sans';
+  font-size: 24px;
 }
 
 .topicos .container-topicos .topico1 {
