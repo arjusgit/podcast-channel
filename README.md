@@ -1,6 +1,8 @@
 # podcast_channel
 
-## allowtransparency
+### Validacion HTML: Corrección
+
+## allowtransparency: Eliminado
 
 Este atributo específico de IE, que nunca ha sido parte de un estándar reconocido, ya no está presente en HTML5.
 
