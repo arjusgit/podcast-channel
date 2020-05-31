@@ -2,7 +2,6 @@ footer {
   display: flex;
   height: 150px;
   background-color: $blanco;
-  color: $font;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -23,6 +22,10 @@ footer {
     width: 50%;
     justify-content: space-around;
     padding-bottom: 25px;
+  }
+
+  .fa {
+    color: $font;
   }
 }
 

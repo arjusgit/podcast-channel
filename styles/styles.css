@@ -28,7 +28,7 @@ a {
 
 a:active {
   font-family: "IBM Plex Mono";
-  color: #060a24;
+  color: #060A24;
   opacity: 56%;
 }
 
@@ -674,7 +674,6 @@ footer {
   display: flex;
   height: 150px;
   background-color: #ffffff;
-  color: #060A24;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -712,6 +711,10 @@ footer .social {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding-bottom: 25px;
+}
+
+footer .fa {
+  color: #060A24;
 }
 
 @media (min-width: 768px) {
