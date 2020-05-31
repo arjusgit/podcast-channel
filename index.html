@@ -15,19 +15,19 @@
 
 <body>
 
-    <nav class="navbar" id="navbar-header">
+    <header id="hamburguesa">
 
-        <header class="navbar-header">
+        <nav class="hamburguesa">
             <a href="#" class="logo-link">
                 <img src="./images/logo.svg" class="logo" alt="Logo">
             </a>
-            <a href="#navbar-header" class="navbar-menu-mobile abrir">
+            <a href="#hamburguesa" class="navbar-menu-mobile abrir">
                 <i class="fa fa-bars fa-2x"></i>
             </a>
             <a href="#" class="navbar-menu-mobile cerrar">
                 <i class="fa fa-close fa-2x"></i>
             </a>
-        </header>
+        </nav>
 
         <ul class="navbar-container">
             <li class="navbar-item"><a class="navbar-link" href="#episodios">episodios</a></li>
@@ -35,7 +35,7 @@
             <li class="navbar-item"><a class="navbar-link" href="#entrevistas">entrevistas</a></li>
             <li class="navbar-item"><a class="navbar-link" href="#topicos">tópicos</a></li>
         </ul>
-    </nav>
+    </header>
 
 
     <section class="welcome">
@@ -44,17 +44,23 @@
         <p class="txt-welcome">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos
             episodios, todos los
             jueves cada 15 días.</p>
-        <button class="btn-welcome">CONOCÉ MÁS</button>
+        <button class="btn-welcome" onclick=" window.open('https://changelog.com/jsparty','_blank')">CONOCÉ MÁS</button>
+
+        <a href="https://changelog.com/jsparty" target='_blank'></a>
     </section>
 
     <main>
 
         <section class="episodios" id="episodios">
             <h2 class="titulos">Episodios</h2>
-            <iframe class="podcast_1" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" allow="encrypted-media"></iframe>
-            <iframe class="podcast_2" src="https://open.spotify.com/embed-podcast/episode/6lzD9VWNM40HAxkVz0a8NX" allow="encrypted-media"></iframe>
-            <iframe class="podcast_3" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" allow="encrypted-media"></iframe>
-            <iframe class="podcast_4" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" allow="encrypted-media"></iframe>
+            <iframe class="podcast_1" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+                allow="encrypted-media"></iframe>
+            <iframe class="podcast_2" src="https://open.spotify.com/embed-podcast/episode/6lzD9VWNM40HAxkVz0a8NX"
+                allow="encrypted-media"></iframe>
+            <iframe class="podcast_3" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+                allow="encrypted-media"></iframe>
+            <iframe class="podcast_4" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"
+                allow="encrypted-media"></iframe>
         </section>
 
         <section class="nosotros" id="nosotros">
@@ -78,8 +84,7 @@
                 <img class="invitados foto3" src="./images/Margaret_Hamilton.png" alt="Margaret Hamilton">
                 <img class="invitados foto4" src="./images/era1103.png"
                     alt=" An E.R.A. Univac 1103 computer in the 1950">
-                <img class="invitados foto5" src="./images/eniac.png"
-                    alt="Computer operators an Eniac">
+                <img class="invitados foto5" src="./images/eniac.png" alt="Computer operators an Eniac">
                 <img class="invitados foto6" src="images/susan-kare.png" alt="Susan Kare">
             </div>
         </section>
@@ -108,7 +113,8 @@
 
         <section class="novedades" id="novedades">
             <h2 class="titulos">¿Querés las últimas novedades?</h2>
-            <button class="btn-novedades">ESCUCHÁ LOS EPISODIOS</button>
+            <button class="btn-novedades" onclick=" window.open('https://open.spotify.com/show/2ySVrxGkN6n6frMTo9Nsrt?si=-6_UBG3zRhyNwXd47C4fow','_blank')">ESCUCHÁ LOS EPISODIOS</button>
+
         </section>
     </main>
 
@@ -117,11 +123,11 @@
             <p>© 2019— Hello blue pale dot</p>
         </div>
         <div class="social">
-            <i class="fab fa-spotify" alt="Spotify"></i>
-            <i class="fab fa-instagram" alt="Instagram"></i>
-            <i class="fab fa-twitter" alt="Twitter"></i>
-            <i class="fab fa-facebook" alt="Facebook"></i>
-            <i class="fab fa-telegram" alt="Telegram"></i>
+            <a href="https://open.spotify.com/show/2ySVrxGkN6n6frMTo9Nsrt?si=-6_UBG3zRhyNwXd47C4fow" target="_blank"><i class="fab fa-spotify"></i></a>
+            <a href="https://www.instagram.com/peoplewhocode/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/jspartyfm" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/peoplewhocode/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://t.me/jspartyrules" target="_blank"><i class="fab fa-telegram"></i></a>
         </div>
     </footer>
 

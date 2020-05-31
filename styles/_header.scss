@@ -1,8 +1,8 @@
-.navbar {
+header {
   background: $blanco;
 }
 
-.navbar-header {
+.hamburguesa {
   display: flex;
   padding: 1rem;
   justify-content: space-between;
@@ -52,15 +52,15 @@
   text-decoration:line-through;
 }
 
-#navbar-header:target .navbar-container {
+#hamburguesa:target .navbar-container {
   height: 330px;
 }
 
-#navbar-header:target .abrir {
+#hamburguesa:target .abrir {
   display: none;
 }
 
-#navbar-header:target .cerrar {
+#hamburguesa:target .cerrar {
   display: flex;
 }
 
@@ -69,10 +69,9 @@
 }
 
 @media (min-width: 768px) {
-  .navbar {
+  header {
     display: flex;
     justify-content: space-between;
-    height: 80px;
   }
 
   .fa.fa-close:before, .fa.fa-remove:before {
@@ -101,7 +100,7 @@
     color: $font;
   }
 
-  #navbar-header:target .navbar-container {
+  #hamburguesa:target .navbar-container {
     height: initial;
   }
 }
