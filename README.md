@@ -2,7 +2,7 @@
 
 Primer proyecto de la carrera Desarrollo Web Full Stack en Acámica.
 
-[Live Demo](https://arjusgit.github.io/podcast-channel/)
+## [Live Demo](https://arjusgit.github.io/podcast-channel/)
 
 ## Recursos & Tecnologías
 * :point_right: HTML5
