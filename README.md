@@ -10,5 +10,5 @@
 * :point_right: Git Version Control
 * :point_right: Git para control de versiones
 
-El desafío se enfocó en el maquetado en modalidad Mobile First de la landing page de un canal ficticio de Podcast, siguiendo las guías visuales de una interfaz de usuario otorgada y desarrollando funcionalidades de reproducción de contenidos, navegación, compatibilidad con múltiples exploradores y dispositivos.
+El desafío consistió en maquetar, en modalidad Mobile First, la landing page de un canal ficticio de Podcast, siguiendo las guías visuales de una interfaz de usuario otorgada y desarrollando funcionalidades de reproducción de contenidos, navegación, compatibilidad con múltiples exploradores y dispositivos.
 
